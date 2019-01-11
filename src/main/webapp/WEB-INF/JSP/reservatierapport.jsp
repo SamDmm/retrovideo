@@ -16,7 +16,7 @@
       <p>De reservatie is ok.</p>
     </c:when>
     <c:otherwise>
-      <p>Volgende reservatie zijn mislukt:</p>
+      <p>Volgende reservaties zijn mislukt:</p>
       <ul>
       <c:forEach var="film" items="${filmsMislukteReservaties}">
         <li>${film.titel}</li>
