@@ -11,7 +11,7 @@
 <body>
   <vdab:menu/>
   <h1>Klanten</h1>
-  <c:url value="/klant"/>
+  <c:url value="/klant" var="url"/>
   <form:form action="${url}" modelAttribute="klantForm" method="get">
     <form:label path="familieNaamDeel">Familienaam bevat: <form:errors path="familieNaamDeel"/></form:label>
     <form:input path="familieNaamDeel" required="required" autofocus="autofocus"/>
